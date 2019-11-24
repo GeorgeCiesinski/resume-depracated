@@ -1,10 +1,11 @@
 - layout: left
-  name: Harvard University
-  dates: 2010 - 2013
-  qualification: BSc Computer Science
+  name: Humber College
+  dates: 2011 - 2014
+  qualification: Electromechanical Engineering - Robotics and Automation
   quote: >
-    Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+    The Humber Institute of Technology and Advanced Learning, commonly known as Humber College, was founded in 1967. Humber is a publicly funded college in Toronto, Ontario, Canada. 
   description: | # this will include new lines to allow paragraphs
-    During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-    I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+    During my time at Humber College, I acquired many new skills which prepared me for the workforce. My studies focused both on the design and building of automation lines, as well as many different types of programming. My classes prepared me for:
+    - Programming various kinds of PLCs and Articulated Robots
+    - Networking PLCs
+    - Developing software to integrate with PLCs using HMI and C#
