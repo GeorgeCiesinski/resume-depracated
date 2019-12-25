@@ -1,5 +1,5 @@
-- layout: top-middle
-  name: Image-Filters
+# - layout: top-middle
+- name: Image-Filters
   link: https://georgeciesinski.github.io/image-filters/
   github: GeorgeCiesinski/image-filters
   quote: >
@@ -7,8 +7,7 @@
   description: | # this will include new lines to allow paragraphs
     This project was a step up from my last project. I used this as an opportunity to learn <mark>OpenCV</mark>, <mark>Tkinter</mark>, and <mark>Pillow</mark>. I also used <mark>Numpy</mark> to interpret the image matrix. Image-Filters is an image editing app that allows the user to alter the brightness and contrast of the image, change between color and grayscale, and apply different instagram style filters to the image before saving it. This app can open and save images in OpenCV compatible image formats.
   
-- layout: top-middle
-  name: Basic Calculator
+- name: Basic Calculator
   link: https://github.com/GeorgeCiesinski/basic-calculator
   github: GeorgeCiesinski/basic-calculator
   quote: >
