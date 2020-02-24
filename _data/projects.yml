@@ -1,16 +1,25 @@
 # - layout: top-middle
+
+- name: Text-Script
+  link: https://georgeciesinski.github.io/text-script/
+  github: GeorgeCiesinski/text-script
+  quote: >
+    Text-Script is an app that runs in the background and replaces text shortcuts with pre-saved blocks of text.
+  description: | # this will include new lines to allow paragraphs
+    This is an app I created as a free open-source tool for a tech-support workplace. This app allows users to save large amounts of email-templates, signatures, and textblocks and recall these later by typing a shortcut in any text input field. Text-Script was designed to increase efficiency in a work place which heavily relies on sending templates to customers, such as in the Tech Support industry, but can be used for many different purposes. I created Text-Script with <mark>Pynput</mark>, <mark>ConfigParser</mark>, and <mark>Logging</mark>, and I am actively maintaining it with regular releases to add new features and fix bugs. 
+
+- name: Reddit-Rising-Posts
+  link: https://georgeciesinski.github.io/reddit-rising-posts/
+  github: GeorgeCiesinski/reddit-rising-posts
+  quote: >
+    Reddit-Rising-Posts is a bot that collects data on Reddit posts as they rise to the front page. 
+  description: | # this will include new lines to allow paragraphs
+    This project is the result of a collaboration between myself and two other programmers. We utilized the Reddit api <mark>PRAW</mark> along with a few helpful libraries including <mark>multiprocessing</mark> to build this bot. Reddit-Rising-Posts finds posts which have reached the rising status on Reddit and schedules them for data collection. Following this, it creates numerous threads which make various API calls to collect data on the post throughout its lifetime until it reaches the front page, and finally leaves the front page. This data is stored in a postgresql database so we can later retrieve it and analyze the data. This project is currently still in progress.
+
 - name: Image-Filters
   link: https://georgeciesinski.github.io/image-filters/
   github: GeorgeCiesinski/image-filters
   quote: >
-    Image-Filters is an app that allows the user to load images from many different formats, apply changes to the image, and save the image in their choice of format.
+    Image-Filters is an app that loads images in many different formats, applies visual changes to the image, and saves the image in the same format, or different format.
   description: | # this will include new lines to allow paragraphs
-    This project was a step up from my last project. I used this as an opportunity to learn <mark>OpenCV</mark>, <mark>Tkinter</mark>, and <mark>Pillow</mark>. I also used <mark>Numpy</mark> to interpret the image matrix. Image-Filters is an image editing app that allows the user to alter the brightness and contrast of the image, change between color and grayscale, and apply different instagram style filters to the image before saving it. This app can open and save images in OpenCV compatible image formats.
-  
-- name: Basic Calculator
-  link: https://georgeciesinski.github.io/basic-calculator/
-  github: GeorgeCiesinski/basic-calculator
-  quote: >
-    Basic Calculator is capable of carrying out basic arithmetic and can run on most platforms, including Windows, Mac, Linux, and Android.
-  description: | # this will include new lines to allow paragraphs
-    Basic Calculator is as the name implies, a calculator that performs basic arithmetic. I started this project as a way of learning <mark>Python</mark> and <mark>Kivy</mark>. I learned many skills with this project, and developed an appreciation for Kivy as an NUI framework. 
+    I used this project as an opportunity to learn <mark>OpenCV</mark>, <mark>Tkinter</mark>, and <mark>Pillow</mark>. I also used <mark>Numpy</mark> to interpret the image matrix. Image-Filters is an image editing app that allows the user to alter the brightness and contrast of the image, change between color and grayscale, and apply different instagram style filters to the image before saving it. This app can open and save images in OpenCV compatible image formats.
