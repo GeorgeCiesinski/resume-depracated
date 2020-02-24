@@ -6,7 +6,7 @@
   quote: >
     Text-Script is an app that runs in the background and replaces text shortcuts with pre-saved blocks of text.
   description: | # this will include new lines to allow paragraphs
-    This is an app I created as a free open-source tool for a tech-support workplace. This app allows users to save large amounts of email-templates, signatures, and textblocks and recall these later by typing a shortcut in any text input field. Text-Script was designed to increase efficiency in a work place which heavily relies on sending templates to customers, such as in the Tech Support industry, but can be used for many different purposes. I created Text-Script with <mark>Pynput</mark>, <mark>ConfigParser</mark>, and <mark>Logging</mark>, and I am actively maintaining it with regular releases to add new features and fix bugs. 
+    This is an app I created as a free open-source tool for a tech-support workplace. This app allows users to save large amounts of email-templates, signatures, and textblocks and recall these later by typing a shortcut in any text input field. Text-Script was designed to increase efficiency in a work place which heavily relies on sending templates to customers, such as in the Tech Support industry, but can be used for other purposes such as programming. I created Text-Script with <mark>Pynput</mark>, <mark>ConfigParser</mark>, and <mark>Logging</mark>, and I am actively maintaining it with regular releases to add new features and bug fixes.
 
 - name: Reddit-Rising-Posts
   link: https://georgeciesinski.github.io/reddit-rising-posts/
@@ -14,7 +14,7 @@
   quote: >
     Reddit-Rising-Posts is a bot that collects data on Reddit posts as they rise to the front page. 
   description: | # this will include new lines to allow paragraphs
-    This project is the result of a collaboration between myself and two other programmers. We utilized the Reddit api <mark>PRAW</mark> along with a few helpful libraries including <mark>multiprocessing</mark> to build this bot. Reddit-Rising-Posts finds posts which have reached the rising status on Reddit and schedules them for data collection. Following this, it creates numerous threads which make various API calls to collect data on the post throughout its lifetime until it reaches the front page, and finally leaves the front page. This data is stored in a postgresql database so we can later retrieve it and analyze the data. This project is currently still in progress.
+    This project is the result of a collaboration between myself and two other programmers. We utilized the Reddit API <mark>PRAW</mark> along with a few helpful libraries including <mark>Multiprocessing</mark> and the <mark>PostgreSQL</mark> database to build this bot. Reddit-Rising-Posts finds posts which have reached the Rising status on Reddit and schedules them for data collection. Following this, it creates numerous threads which make API calls to collect data on the post throughout its lifetime until it reaches and finally leaves the Front Page. This data is stored in a postgresql database so we can later retrieve it and analyze the data. This project is actively being developed.
 
 - name: Image-Filters
   link: https://georgeciesinski.github.io/image-filters/
